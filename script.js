@@ -7,7 +7,7 @@ const messages = [
     "STATUS: SUCCESS",
     "CRIMINAL DETECTED ⚠️",
     "Name: Hamzi Ali Majaran",
-    "HOBBY: Stealing window seat in bus ❤️"
+    "HOBBY: Stealing window seat in bus😁 "
 ];
 
 let index = 0;
@@ -105,7 +105,7 @@ function showSequence() {
 
                             showPhoto("slide2", () => {
 
-                                addLine("VERDICT: Birthday Protocal ❤️", () => {
+                                addLine("VERDICT: Birthday Protocal😎 ", () => {
 
                                     document
                                         .getElementById("birthday-section")

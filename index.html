@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+<div id="startScreen">
+
+  <button id="startBtn" onclick="startInvestigation()">
+    ▶ START INVESTIGATION
+</button>
+
+</div>
+
+<div class="terminal">
+
+    <div class="terminal">
+        <div id="output"></div>
+
+        <div id="slideshowContainer">
+
+    <img id="slide1" src="photo3.png" class="slidePhoto">
+
+    <img id="slide2" src="photo5.png" class="slidePhoto">
+
+</div>
+
+       <div id="birthday-section" class="hidden">
+    <h1>🎉 HAPPY BIRTHDAY Miss.DEEPTEE PAL 🎉</h1>
+
+   
+    <br>
+
+    <button id="giftBtn" onclick="playMusic()">
+        🎁 Open Birthday Gift
+    </button>
+
+  <div id="giftPhoto" class="hidden">
+
+    <img src="photo3.png" alt="Photo 1">
+
+    <img src="photo4.png" alt="Photo 2">
+
+    <img src="photo5.png" alt="Special Photo">
+
+</div>
+
+<p id="birthdayMessage" class="message hidden">
+    Happy Birthday ❤️<br><br>
+    I hope this year brings you happiness,
+    success, unforgettable memories,
+    and lots of reasons to smile.
+    Enjoy your special day! 🎂✨
+</p>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+    <audio id="bgMusic" loop>
+    <source src="background.mp3" type="audio/mpeg">
+</audio>
+    <audio id="birthdayMusic">
+    <source src="birthday.mp3" type="audio/mpeg">
+</audio>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
